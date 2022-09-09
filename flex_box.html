@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item {
+            height: 50px;
+            width: 50px;
+            background-color: pink;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .main {
+            height: 500px;
+            width: 500px;
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            /* it controls the horzonental level */
+            align-items: center;
+
+            /* it controls the vertical level */
+
+            flex-flow: row;
+            /* the default the flex flow will become column, by default the flex flow is row */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="item">001</div>
+        <div class="item">2</div>
+        <div class="item">3
+            <div>cap</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
